@@ -12,12 +12,12 @@ Changing the second digit results in 9969.
 Changing the third digit results in 9699.
 Changing the fourth digit results in 9666.
 The maximum number is 9969"""
-num =  int(input(""))
-lnum = list(str(num))
-for i in range (len(str(num))):
-    if (lnum[i] == '6'):
+num =  int(input("")) #take num as integer
+lnum = list(str(num)) #stringifyed list of num digits
+for i in range (len(str(num))): #loop till we reach the last digit of numN
+    if (lnum[i] == '6'):#check if 6 if replac with 9
         lnum[i] = '9'
-        break
+        break #breack for replacing one digit at a time
 print("".join(lnum))
     
 
