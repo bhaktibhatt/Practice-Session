@@ -1,4 +1,4 @@
-    nums = [1,7,3,6,5,6]
+nums = [1,7,3,6,5,6]
 #! here we will take sum(nums) = 28
 
 #* at nums[0]
